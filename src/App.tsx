@@ -11,7 +11,7 @@ function App() {
 
   const fetchData = async (topic: string) => {
     try {
-      const response = await axios.get(`http://localhost:5000/generate-text?topic=${encodeURIComponent(topic)}`);
+      const response = await axios.get(`http://localhost:5000/api/generate-text?topic=${encodeURIComponent(topic)}`);
       const questions = response.data.data.split('\n').filter((question: string) => question.trim() !== '');
 
       if (Array.isArray(questions)) {
