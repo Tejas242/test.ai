@@ -3,7 +3,7 @@ import './App.css';
 import Input from './components/Input';
 import Logo from './components/Logo';
 import Result from './components/Result';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import axios from 'axios';
 
 function App() {
