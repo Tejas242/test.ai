@@ -14,7 +14,7 @@ app.use(cors());
 const MODEL_NAME = "models/text-bison-001";
 const stopSequences = [];
 
-app.get('/generate-text', async (req, res) => {
+app.get('/api/generate-text', async (req, res) => {
   try {
     const API_KEY = process.env.API_KEY || '';
     const client = new TextServiceClient({
