@@ -1,30 +1,53 @@
-# React + TypeScript + Vite
+# Test.ai - AI-Based Educational Question Generator (UNDER CONSTRUCTION)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Test.ai is an educational app powered by AI that generates questions on a given topic, allowing users to test their knowledge. The app leverages React, Tailwind CSS, and Axios for a seamless and interactive learning experience.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- AI-driven question generation for educational purposes
+- User-friendly interface with a clean design
+- Integration of React, Tailwind CSS, and Axios
+- Typewriter effect for displaying generated questions(TBD)
+- Fade-in animation for a visually appealing experience
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Prerequisites
 
-- Configure the top-level `parserOptions` property like this:
+- Node.js and npm installed
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Tejas242/test.ai.git
+   ```
+2. Navigate to the project directory:
+
+  ```bash
+  cd test-ai
+  ```
+3. Install dependencies:
+
+  ```bash
+  npm install
+  ```
+
+## Usage
+Start the development server:
+
+``` bash
+npm start
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Open your browser and visit http://localhost:3000 to explore Test.ai.
+
+## Demo
+Include screenshots, gifs, or a link to a live demo if available.
+
+## Contributing
+Contributions are welcome! Fork the repository, make your changes, and create a pull request.
+
+## License
+This project is licensed under the MIT License.
